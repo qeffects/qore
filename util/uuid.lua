@@ -12,6 +12,7 @@ local function pad(str, len)
     return string.rep("0", padLen)..str
 end
 
+---@class uuid
 local function uuid()
     if not _uuid.inited then
         _uuid.init()

@@ -1,4 +1,5 @@
 -- External interface
+---@class PromiseInterface
 local PromiseInterface = {}
 
 -- Internal class

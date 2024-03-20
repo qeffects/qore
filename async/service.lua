@@ -1,5 +1,6 @@
 local path = (...):gsub(".async.service", "")
 local List = require(path..".iterable.list")
+---@class Service
 local Service = {}
 Service.__index = Service
 
